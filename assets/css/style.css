@@ -1,0 +1,19 @@
+/fuentes/
+@font-face{
+  font-family: "fajala";
+  src: url(../fonts/fuente.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+/estilos generales/
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif, Arial, Helvetica, sans-serif;
+  text-decoration: none; 
+}
+
+body{
+  background: red;
+}
