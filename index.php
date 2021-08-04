@@ -1,39 +1,38 @@
-<!Doctype>
-<html lang="es">
-  <head>
-    <meta charset="utf-8"/>
-    <title>Blog de programacion</title>
-  </head>
-  <body>
-    <!--CABECERA-->
-    <header id="header">
-      <!--logo-->
-      <div id ="logo">
-	<a>Blog programacion git</a>
+<?php require_once 'includes/cabecera.php' ?>
+<!--BARRA LATERAL-->
+<?php require_once 'includes/latereal.php' ?>
+<!--CAJA PRINCIPAL-->
+      <div id="principal">
+	<h1>Ultimas Publicaciones</h1>
+
+	<article class="entrada">
+	  <h2>Titulo de mi entrada</h2>
+	  <p>
+	    Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen
+	  </p>
+	<article>
+
+	<article class="entrada">
+	  <h2>Titulo de mi entrada</h2>
+	  <p>
+	    Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen
+	  </p>
+	<article>
+	<article class="entrada">
+	  <h2>Titulo de mi entrada</h2>
+	  <p>
+	    Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen
+	  </p>
+	<article>
+	<article class="entrada">
+	  <h2>Titulo de mi entrada</h2>
+	  <p>
+	    Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen
+	  </p>
+	<article>
+      <div id="ver-todas">
+	<a href="#">ver toda las entradas</a>		
       </div>
+    </div>
 
-    <!--MENU-->
-    <nav id="nav">
-      <ul>
-	<li><a href="index.php">Inicio</a></li>
-	<li><a href="index.php">Lenguaje 1</a></li>
-	<li><a href="index.php">Lenguaje 2</a></li>
-	<li><a href="index.php">Lenguaje 3</a></li>
-	<li><a href="index.php">Lenguaje 4</a></li>
-	<li><a href="index.php">Contacto</a></li>
-      </ul>
-    </nav>
-    
-    </header>
-
-
-    <!--BARRA LATERAL-->
-
-
-    <!--CAJA PRINCIPAL-->
-
-    
-    <!--PIE DE PAGINA-->
-  </body>
-
-</html>
+<?php require_once 'includes/pie.php' ?>

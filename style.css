@@ -1,26 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
  @font-face {
-  font-family: "fajala";
-  src: url(/assets/fonts/fuente.ttf) format('truetype');
-
-  font-weight: normal;
-  font-style: normal;
-  }
-  /*estilos generales primero limpiar margenes y paddings y establecer la fuente por defecto */
- * {
-  margin: 0px;
-  padding: 0px;
-  font-family: sans-serif, arial, helvetica;
-  /*que no tenga los a y li subrashados*/
-  text-decoration: none;
-  }
+                  font-family: "fajala";
+                  src: url(../fonts/fuente.ttf) format('truetype');
+                  font-weight: normal;
+                  font-style: normal;
+              }
+              /*Estilos generales primero limpiar margenes y paddings y establecer la fuente por defecto */
+              
+              * {
+                  margin: 0px;
+                  padding: 0px;
+                  font-family: sans-serif, Arial, Helvetica;
+                  /*que no tenga los a y li subrashados*/
+                  text-decoration: none;
+              }
  #contenedor {
-  width: 85%;
-  height: auto;
-  margin: 0px auto;
-  margin-top: 30px;
-  margin-bottom: 15px;
-  }
+                  width: 85%;
+                  height: auto;
+                  margin: 0px auto;
+                  margin-top: 30px;
+                  margin-bottom: 15px;
+              }
 .wrapper{
   background: #171c24;
   width: 100%;
@@ -32,6 +33,12 @@ nav .content{
 nav .content .links{
   margin-left: 80px;
   display: flex;
+}
+.content .logo a{
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+  margin-left: 12px;
 }
 .content .links li{
   list-style: none;
@@ -87,27 +94,31 @@ nav .content .links{
 }
 
 
-/*limpia los flotados*/             
-.clearfix {
-clear: both;
-float: none;
-}
-  
-/*estilos de las cabezeras*/
-
-.alerta{
-  padding: 5px;
-  font-size: 14px;
-  color: wheat;
-  background: green;
-  box-shadow: 0px 1px 3px #ccc;
-  margin-bottom: 10px;
-  border-radius: 7px;
- }
+              /*Cargar las fuentes*/
               
-.alerta-error{
-  background: red;
-}
+              /*limpia los flotados*/
+              
+              .clearfix {
+                  clear: both;
+                  float: none;
+              }
+  
+              /*estilos de las cabezeras*/
+
+              .alerta{
+                  padding: 5px;
+                  font-size: 14px;
+                  color: wheat;
+                  background: green;
+                  box-shadow: 0px 1px 3px #ccc;
+                  margin-bottom: 10px;
+                  border-radius: 7px;
+              }
+              
+              .alerta-error{
+                  background: red;
+            
+	      }
 
 
 	      .fecha{
@@ -183,43 +194,43 @@ float: none;
               }
               /*centrar*/
               
- #principal {
- float: left;
- width: 65%;
- min-height: 500px;
- background: white;
- border-radius: 5px;
- box-shadow: 0px 0px 5px #ccc;
- padding: 20px;
- margin-left: 20px;
- overflow: hidden;
- /*Si algo sale del hidden no se vea*/
- }
+              #principal {
+                  float: left;
+                  width: 65%;
+                  min-height: 500px;
+                  background: white;
+                  border-radius: 5px;
+                  box-shadow: 0px 0px 5px #ccc;
+                  padding: 20px;
+                  margin-left: 20px;
+                  overflow: hidden;
+                  /*Si algo sale del hidden no se vea*/
+              }
               
-  #principal a {
-    color: #333;
-  }
+              #principal a {
+                  color: #333;
+              }
               
- #principal h1 {
- font-size: 27px;
- color: #444;
- letter-spacing: 5px;
- text-shadow: 1px 1px 2px #ccc;
- font-family: "fajala";
- }
-               
- #principal h2 {
- font-size: 15px;
- color: #2979DC;
- letter-spacing: 1px;
- text-shadow: 1px 1px 2px #ccc;
- font-family: "fajala";
- margin-top: 15px;
-  }
+              #principal h1 {
+                  font-size: 27px;
+                  color: #444;
+                  letter-spacing: 5px;
+                  text-shadow: 1px 1px 2px #ccc;
+                  font-family: "fajala";
+              }
               
-  #principal p {
-  margin-top: 4px;
-  }
+              #principal h2 {
+                  font-size: 15px;
+                  color: #2979DC;
+                  letter-spacing: 1px;
+                  text-shadow: 1px 1px 2px #ccc;
+                  font-family: "fajala";
+                  margin-top: 15px;
+              }
+              
+              #principal p {
+                  margin-top: 4px;
+              }
               /*Boton ver todas*/
               
               #ver-todas a {
