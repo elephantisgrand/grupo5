@@ -1,4 +1,3 @@
-Paulina los mismo pasos del otro dia y le pega esto en index.php
 <!DOCTYPE html>
 <html lang="es">
 <head>
