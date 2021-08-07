@@ -1,10 +1,10 @@
-
-<div class="clearfix"></div>
-</div>
     <!--PIE DE PAGINA-->
-    <footer id="pie">
-      <p>Desarrollado por el grupo 5 &copy; 2021</p>
-    </footer>
-  </body>
-</html>
+    
+    <div class="clearfix"></div>
+    </div> <!--Fin delconenedor-->
 
+    <footer id="pie">
+        <p>Desarrollado por Freddy Lobato &copy; 2020</p>
+    </footer>
+
+</html>
