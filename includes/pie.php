@@ -4,7 +4,7 @@
     </div> <!--Fin delconenedor-->
 
     <footer id="pie">
-        <p>Desarrollado por Freddy Lobato &copy; 2020</p>
+        <p>Desarrollado por grupo 5 &copy; 2020</p>
     </footer>
 
 </html>
